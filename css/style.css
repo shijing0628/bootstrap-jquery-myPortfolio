@@ -1514,6 +1514,10 @@ figure.full-width.caption img {
 .tag-links a {
   text-transform: capitalize;
 }
+/* gallery */
+.my-gallery {
+  height: 388px;
+}
 
 /* ---------------------------------------------- 
 * 13. Contact
