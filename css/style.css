@@ -1,32 +1,9 @@
 /*-----------------
 * [Master Stylesheet]
 *
-* Theme    : Andrea - Creative Portfolio Template
+* Theme    : Shijing - Creative Portfolio Template
 * Version  : 1.0
-* Author   : gtomdesign
-* Support  : gtomdesign@gmail.com
-* 
-------------------*/
-
-/*-----------------
-  [ALL CONTENTS]
-
-1. Reset.css
-2. General 
-3. Helper Classes 
-4. Preloader
-5. Header
-6. About
-7. Portfolio
-8. Services
-9. Freelance
-10. Resume
-11. Testimony
-12. Blog
-13. Contact
-14. Footer 
-15. All Media Queries
-
+* Author   : brenda Liu
 ------------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Roboto+Condensed&display=swap");
@@ -647,6 +624,7 @@ strong {
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   padding-left: 20%;
+  background-color: #f5f0f0;
 }
 
 .page-wrapper-in {
@@ -689,6 +667,7 @@ strong {
   background-size: cover;
   background-position: center;
   background-attachment: fixed !important;
+  object-fit: cover;
 }
 
 .glass {
@@ -1608,6 +1587,7 @@ figure.full-width.caption img {
     padding-left: 0%;
     border-radius: 0;
     margin-top: 0;
+    background-color: #f5f0f0;
   }
 
   .nav-wrapper .navbar-toggler {
