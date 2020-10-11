@@ -1519,6 +1519,10 @@ figure.full-width.caption img {
   height: 388px;
 }
 
+.nav-previous a:hover {
+  background-color: #f1d1d1;
+}
+
 /* ---------------------------------------------- 
 * 13. Contact
 /* ---------------------------------------------- */
