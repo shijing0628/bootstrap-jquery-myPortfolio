@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- <link rel="stylesheet" href="css/LineIcons.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Brenda Website</title>
+  </head>
+  <body data-spy="scroll" daa-target=".navbar">
+    <!-- START: Preloader -->
+    <div id="preloader" class="preloader">
+      <div class="spinner-grow text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- END: Preloader -->
+
+    <!-- Aside -->
+    <aside class="aside">
+      <div class="nav-wrapper">
+        <div class="navbar-toggler navbar-light bg-light">
+          <img src="images/hamburger-menu.svg" />
+        </div>
+
+        <nav
+          class="navbar text-center align-items-center justify-content-center"
+        >
+          <div class="collapse navbar-collapse show" id="navbarCollapse">
+            <div class="about-avatar mb-5">
+              <a href="index.html">
+                <img
+                  src="images/me1.jpg"
+                  alt=""
+                  class="img-fluid mx-auto d-block shadow-sm rounded-full animate__animated animate__backInLeft animate__delay-1s"
+                />
+              </a>
+              <div class="about-avatar-details mt-4"><h2>Shijing Liu</h2></div>
+            </div>
+
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a href="about.html" class="nav-link text-underline"
+                  ><img src="images/home.svg" />Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="about.html"
+                  ><img src="images/about.svg" />about</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="gallery.html"
+                  ><img src="images/gallery.svg" />Gallery</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="services.html"
+                  ><img src="images/service.svg" />Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="blog.html"
+                  ><img src="images/blog.svg" />Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="contact.html"
+                  ><img src="images/contact.svg" />Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="aside-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-youtube-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </aside>
+    <!-- end aside -->
+
+    <div class="page-wrapper">
+      <!-- START: SERVICES -->
+		<section class="section section-light section-services" id="services">
+			<div class="container">
+				<div class="section-head text-center">
+					<span>WHAT I DO</span>
+					<h2>My Services</h2>
+        </div>
+         <div class="row mt-4">
+            <div class="col-sm-6 col-lg-4 col-md-4">
+              <div class="services-list b-box p-4">
+                <img src="./images/service1.jpg" alt="service1" />
+                <div class="services-list-icon">
+                  <i class="fab fa-figma"></i>
+                  <span>1</span>
+                </div>
+                <div class="services-list-desc">
+                  <h5 class="mb-0">UI/UX Design</h5>
+                  <p class="mt-3">
+                    Modern and mobile-ready website that will help of your
+                    marketing. Proin laoreet elementum ligula, ac tincidunt
+                    lorem accumsan nec.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-4">
+              <div class="services-list b-box p-4">
+                <img src="./images/service3.jpg" alt="service3" />
+                <div class="services-list-icon">
+                  <i class="fas fa-database"></i>
+                  <span>2</span>
+                </div>
+                <div class="services-list-desc">
+                  <h5 class="mb-0">Backend</h5>
+                  <p class="mt-3">
+                    Modern and mobile-ready website that will help of your
+                    marketing. Proin laoreet elementum ligula, ac tincidunt
+                    lorem accumsan nec.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-4">
+              <div class="services-list b-box p-4">
+                <img src="./images/service2.jpg" alt="service2" />
+                <div class="services-list-icon">
+                  <i class="far fa-file-code"></i>
+                  <span>3</span>
+                </div>
+                <div class="services-list-desc">
+                  <h5 class="mb-0">FrontEnd</h5>
+                  <p class="mt-3">
+                    Modern and mobile-ready website that will help of your
+                    marketing. Proin laoreet elementum ligula, ac tincidunt
+                    lorem accumsan nec.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="row mt-4">
+            <div class="col-sm-6 col-lg-4 col-md-4">
+              <div class="services-list b-box p-4">
+                <img src="./images/service1.jpg" alt="service1" />
+                <div class="services-list-icon">
+                  <i class="fab fa-figma"></i>
+                  <span>1</span>
+                </div>
+                <div class="services-list-desc">
+                  <h5 class="mb-0">UI/UX Design</h5>
+                  <p class="mt-3">
+                    Modern and mobile-ready website that will help of your
+                    marketing. Proin laoreet elementum ligula, ac tincidunt
+                    lorem accumsan nec.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-4">
+              <div class="services-list b-box p-4">
+                <img src="./images/service3.jpg" alt="service3" />
+                <div class="services-list-icon">
+                  <i class="fas fa-database"></i>
+                  <span>2</span>
+                </div>
+                <div class="services-list-desc">
+                  <h5 class="mb-0">Backend</h5>
+                  <p class="mt-3">
+                    Modern and mobile-ready website that will help of your
+                    marketing. Proin laoreet elementum ligula, ac tincidunt
+                    lorem accumsan nec.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-4">
+              <div class="services-list b-box p-4">
+                <img src="./images/service2.jpg" alt="service2" />
+                <div class="services-list-icon">
+                  <i class="far fa-file-code"></i>
+                  <span>3</span>
+                </div>
+                <div class="services-list-desc">
+                  <h5 class="mb-0">FrontEnd</h5>
+                  <p class="mt-3">
+                    Modern and mobile-ready website that will help of your
+                    marketing. Proin laoreet elementum ligula, ac tincidunt
+                    lorem accumsan nec.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- contact us btn-->
+		<section class="section pt-4 section-freelance section-light text-center ">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-head wow-none fadeInUp" data-wow-none-duration="1.5s">
+							<h2>Let's work together!</h2>
+						</div>
+						<div class="mt-5">
+							<a href="contact.html" class="btn">Contact Us!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- contact us btn -->
+      <footer>
+        <div class="footer section section-light">
+          <div class="container">
+            <p class="mb-0 text-center">
+              &copy; Shijing Liu 2020 | All Right Reserved
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
