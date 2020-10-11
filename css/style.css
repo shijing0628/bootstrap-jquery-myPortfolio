@@ -687,6 +687,7 @@ strong {
   font-weight: 100;
   letter-spacing: 16px;
   text-transform: uppercase;
+  padding: 0 15px;
 }
 
 .glass:after {
@@ -1265,8 +1266,9 @@ a.text-underline:after {
 }
 
 .progress-bar {
-  background: #333;
+  background: tomato;
   opacity: 0.8;
+  border-radius: 10px;
 }
 
 .section-skills-wrap p {
@@ -1276,6 +1278,7 @@ a.text-underline:after {
 .progress {
   height: 3px;
   background: #dcdcdc;
+  border-radius: 10px;
 }
 
 .ExperienceList .resume-list {
@@ -1667,7 +1670,7 @@ figure.full-width.caption img {
     max-width: 400px;
   }
 
-  .resume-panel {
+  .cv-panel {
     margin-top: 30px;
   }
 
