@@ -419,25 +419,10 @@ strong {
   margin: 0px 0 20px;
 }
 
-.badge-dark {
-  background: #fa1f55;
-  background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -webkit-gradient(
-    left bottom,
-    right top,
-    color-stop(0%, #fa1f55),
-    color-stop(100%, #fd735a)
-  );
-  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
-}
-
 .badge-light {
   color: #fff;
   background-color: #6c757d;
+  padding: 8px;
 }
 
 /* ---------------------------------------------- 
@@ -1288,11 +1273,23 @@ a.text-underline:after {
   border-radius: 10px;
 }
 
-.ExperienceList .resume-list {
+.experienceList .resume-list {
   border-radius: 0;
   margin-top: -1px;
+  transition: all.8;
 }
 
+.educationList .resume-list:hover {
+  transform: scale(1.1);
+  background-color: #f8f9d2;
+  background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+  border-radius: 10px;
+}
+
+.experienceList .resume-list:hover {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: tomato;
+}
 /* ---------------------------------------------- 
 * 11. Testimony
 /* ---------------------------------------------- */
