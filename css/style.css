@@ -303,6 +303,18 @@ strong {
   font-size: 12px;
 }
 
+.codepen-btn {
+  margin-right: 5px;
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+}
+.codepen-btn:hover {
+  background-color: tomato;
+  color: #fff;
+  border: none;
+}
+
 .rounded-full {
   border-radius: 50%;
 }
@@ -643,10 +655,12 @@ strong {
   height: 30px;
   width: 30px;
   display: block;
+  font-size: 20px;
 }
 .aside-footer a:hover {
   color: tomato;
 }
+
 /* ---------------------------------------------- 
 * 6. Home
 /* ---------------------------------------------- */
